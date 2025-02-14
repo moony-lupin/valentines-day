@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const submitPassword = document.getElementById("submit-password");
     const errorMessage = document.getElementById("error-message");
 
-    const correctPassword = "GoodLuckGettingRidOfMe"; // Change this to your desired password
+    const correctPassword = "brat"; // Change this to your desired password
 
     submitPassword.addEventListener("click", function() {
         if (passwordInput.value === correctPassword) {
