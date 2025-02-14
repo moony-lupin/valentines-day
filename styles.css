@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -9,7 +13,8 @@ body {
 }
 
 .card {
-    width: 500px;
+    width: 90%
+    max-width: 500px;
     background: white;
     border-radius: 12px;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
